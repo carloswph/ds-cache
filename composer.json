@@ -1,0 +1,21 @@
+{
+    "name": "carloswph/ds-cache",
+    "description": "PSR-16 implementation taking advantage of php-ds extension and its efficient data structures.",
+    "type": "library",
+    "require": {
+        "psr/simple-cache": "3.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ds\\Cache\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "minimum-stability": "dev"
+}
